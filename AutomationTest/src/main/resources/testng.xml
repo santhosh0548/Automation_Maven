@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE Automationn Practice Application Test Automation Test Suite">
+<listeners>
+	<listener
+		class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+</listeners>
+
+	<test name="FREE Automationn Practice App Test Cases">
+		<classes>
+			<class name="com.kraft.qa.testcases.LoginPageTest"></class>
+			<class name="com.kraft.qa.testcases.MyAddressesPageTest"></class>			
+		</classes>
+	</test>
+</suite>
